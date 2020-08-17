@@ -1,0 +1,39 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API for BrooX App",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pratikstemkar/broox.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "node",
+    "js",
+    "jwt",
+    "auth",
+    "passport"
+  ],
+  "author": "PRATIK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pratikstemkar/broox/issues"
+  },
+  "homepage": "https://github.com/pratikstemkar/broox#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.0",
+    "request": "^2.88.2"
+  }
+}
